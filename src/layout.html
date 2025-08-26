@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-500">
+  <h1 class="text-3xl font-bold text-white">
+   Layout | Tailwind
+  </h1>
+  <!-- container - takes full width of the screen 
+     h-20  - height 20  
+     mx-auto - margin left and right 
+
+     flex - layouts : 
+
+     flex - make the flex container
+     justify-center - center/start/end
+     absolute value child ki ichinapudu, element ni move cheyadaniki trasform and trasnlate use chestham 
+     translate-x => left to right move avudhi 
+     translate-y => top to bottom move avudhi
+
+  -->
+   <div class="container relative border-red-500 border-2 rounded-lg mt-10 mx-auto">
+    <h1 class="text-white pl-4 pt-2 text-2xl font-bold">Sushmitha Code</h1>
+    <p class="p-4 text-white mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem impedit placeat nobis corrupti quisquam, facilis accusamus, tenetur officiis quod praesentium nesciunt vitae beatae alias non, quaerat eligendi modi dolor quam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatem tempora itaque quibusdam, officia dicta dignissimos iste sapiente perferendis hic?</p>
+
+    <!-- <div class="flex justify-center">
+    <button class="bg-red-600 text-white p-3 rounded-xl ml-4 hover:bg-red-500 my-3">Read More</button>
+    </div> -->
+    
+    <button class=" absolute bottom-0 transform translate-y-10 bg-red-600 text-white p-3 rounded-full ml-4 hover:bg-red-500 my-3">Read More</button>
+    
+
+   </div>
+
+</body>
+</html>
