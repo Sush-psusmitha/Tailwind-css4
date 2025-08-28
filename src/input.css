@@ -7,16 +7,8 @@
   --color-mint: #98ff98;
   --color-sand: #f4a460;
   --color-pure-rose: #FF007F;
+  --color-orange-cus: #FF9800;
+  --font-weight-custom:1000;
 
-
-
-
-
-
-
-
-
-
-
-  
 }
+@custom-variant dark (&:where(.dark, .dark *));

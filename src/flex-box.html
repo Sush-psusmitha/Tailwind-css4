@@ -5,10 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold text-white text-center">
+<body class="bg-red-500">
+  <h1 class="text-3xl font-bold text-white text-center mb-5">
    Flex Box Layout
-  </h1>
+  </h1> 
+  
+<!-- 
+   class names for flex: 
+   flex - to turn items into flex container. 
+
+   (row + just = for row wise left to right move)
+   flex-row - direction row (left to right)
+   justify-start/center/end/between/around  -  row wise left to right move avudhi.
+
+
+   (col + items = for col wise move left to right)
+   flex-col - direction col (top to bottom)
+   items-start/center/end - col wise gah left to right move avudhi. 
+
+   flex-grow - used in child items eg: flex-grow-1
+
+   for responsive: use md:/lg:
+
+-->
+  <!-- <div class="container flex flex-col items-end bg-red-300 h-50">
+    <div class="bg-green-500">Content 1</div>
+    <div class="bg-green-500">Content 2</div>
+    <div class="bg-green-500">Content 3</div>
+  </div> <br> -->
+  <div class="container flex flex-row text-center">
+    <div class="bg-green-500 flex-1">Content 1</div>
+    <div class="bg-green-500 flex-2">Content 2</div>
+    <div class="bg-green-500 flex-1">Content 3</div>
+  </div>
 
 
 
