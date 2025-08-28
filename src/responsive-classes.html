@@ -18,13 +18,25 @@
   <p class="text-xl text-white text-center"><b>2xl: 1536px </b></p>
   </div>
 <!-- 
-Prefix	Min-width (default)
-sm:	640px
+Prefix	Min-width >= (default)
+sm:	>=640px
 md:	768px
 lg:	1024px
 xl:	1280px
 2xl:1536px  
--->
+--> <br>
 
+<h2 class="text-white font-bold">Overriding resposnive classes sm/md/lg/xl/2xl: in inpput.css</h2>
+<br>
+<div class="flex flex-col phone:flex-row laptop:flex-col desktop:flex-row">
+  <div class="bg-red-400">TEST 1</div>
+  <div class="bg-red-400">TEST 2</div>
+</div>
+<br>
+<h2 class="text-white font-bold">Apply Directives:</h2>
+<p class="text-lg text-white">with a class name using @apply in input.css, next adding all the styles related and that class name if we use, same styles will be applies where tha class name exsits  </p>
+<button class="same-btn">Button 1</button>
+<button class="same-btn">Button 2</button>
+<button class="same-btn">Button 3</button>
 </body>
 </html>

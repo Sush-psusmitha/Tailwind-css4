@@ -9,6 +9,15 @@
   --color-pure-rose: #FF007F;
   --color-orange-cus: #FF9800;
   --font-weight-custom:1000;
+  /* we should make all resp class with 0 by initial */
+  /* --breakpoint-*: initial;
+  --breakpoint-phone: 40rem;
+  --breakpoint-laptop: 64rem;
+  --breakpoint-desktop: 80rem; */
 
 }
 @custom-variant dark (&:where(.dark, .dark *));
+
+.same-btn{
+  @apply bg-green-500 p-4 m-4 rounded-2xl border-4 border-red-900 hover:bg-green-800
+}
